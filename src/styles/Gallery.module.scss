@@ -1,0 +1,27 @@
+.Gallery {
+    position: relative;
+    top: calc(15% + 40px);
+    margin: 0px 40px;
+    .pic {
+        position: relative;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0px 1px 6px 0px rgba(#444,0.28);
+        margin: 0px auto 20px;
+        width: 200px;
+    }
+    .myMasonryGrid {
+        display: flex;
+        margin-left: -30px;
+        width: auto;
+    }
+    .myMasonryGridColumn {
+        padding-left: 0px;
+        background-clip: padding-box;
+        margin-left: 20px;
+    }
+    .noResults {
+        text-align: center;
+    }
+}
